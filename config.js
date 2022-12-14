@@ -8,13 +8,13 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // Other
-global.owner = ['6283193428314']
-global.premium = ['6283193428314']
-global.ownername = 'Arthur'
-global.packname = 'Arthur'
+global.owner = ['6281342077268']
+global.premium = ['6281342077268']
+global.ownername = 'Sticker'
+global.packname = 'AlfiyanDev'
 global.author = 'WhatsApp 👿'
 global.sessionName = 'session'
-global.linkgrupss = 'https://chat.whatsapp.com/JdsIxPjAl7I3Z64ywDeuTa'
+global.linkgrupss = 'https://alfiyandev.my.id'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
@@ -30,7 +30,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 3
 }
 global.thumb = fs.readFileSync('./lib/thum.jpg')
 global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
