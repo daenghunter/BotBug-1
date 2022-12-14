@@ -887,45 +887,6 @@ var l = 1
 hisoka.sendMessage(from, {
     caption: `Hi User ${pushname}
 
-*• 🍬 Date Islamic*
-      *_Wib_* : _${wib}_
-      *_Wita_* : _${wita}_
-      *_Wit_* : _${wit}_
-      
-      
-*Runtime Bot😅☝️*
-_*- ${runtime(process.uptime())}*_
-
-*Online WhatsApp*
-Os-Time : ${runtime(os.uptime())}
-
-                 *OTHER MENU*
-                 *ℒ⃝🥶 • tictactoe* @tag
-                 *ℒ⃝🥶• afk*
-                 *ℒ⃝🥶• anticall* on
-                 *ℒ⃝🥶• anticall* off
-                 *ℒ⃝🥶• nowa*
-
-                 *CONVERT MENU*
-
-                 *ℒ⃝🥶• sticker*
-                 *ℒ⃝🥶• emojimix*
-                 *ℒ⃝🥶• emojimix2*
-                 *ℒ⃝🥶• stickmeme*  <text>| <text>
-                 *ℒ⃝🥶• ttp* <text>
-                 *ℒ⃝🥶• attp* <text>
-                 *ℒ⃝🥶• toimage*
-                 *ℒ⃝🥶• dbinary*
-                 *ℒ⃝🥶• ebinary*
-                 *ℒ⃝🥶• tovideo*
-
-                 *RAMDOM MENU*
-
-                 *ℒ⃝🥶• patrick*
-                 *ℒ⃝🥶• dogestick*
-                 *ℒ⃝🥶• bucinstick*
-                 *ℒ⃝🥶• gurastick*
-
                  *Khusus owner*
             
                  *ℒ⃝🥶• butto*
@@ -951,14 +912,6 @@ Os-Time : ${runtime(os.uptime())}
                  *ℒ⃝🥶• four*
                  *ℒ⃝🥶• hihi*
                  *ℒ⃝🥶• crashcok*
-
-*🚨* *WARNING*
-Berhati-hati dalam memilih menu
-Dapat mengakibatkan crash!!!
-
-*-Thank for*
-
- *-Arthur*
 `,
     image: fs.readFileSync("./lib/thum.jpg"),
     buttons: [
@@ -973,7 +926,7 @@ Dapat mengakibatkan crash!!!
         displayText: 'Speed 🥶'
       }, type: 2}
     ],
-    footer: "© Arthur",
+    footer: "© AlfiyanDev",
                 contextInfo: {
 "externalAdReply": { 
 "title" : global.ownername,
